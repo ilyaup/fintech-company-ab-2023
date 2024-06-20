@@ -1,0 +1,7 @@
+payment_schedule_id - unique id for the payment.
+status (PAID, OVERDUE, FUTURE) - status of the payment.
+payment_date - when this payment should be made.
+period_payment - overall amount that should be paid.
+interest_payment - amount of the interest that should be paid.
+principal_amount - amount of payment if there was no interest.
+period_number - ordinal number of the payment.

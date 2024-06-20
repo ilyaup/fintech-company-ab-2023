@@ -1,0 +1,3 @@
+id - unique id for the payment schedule.
+agreement_number - the id of the agreement which this payment schedule belongs to.
+version - version of the payment schedule.

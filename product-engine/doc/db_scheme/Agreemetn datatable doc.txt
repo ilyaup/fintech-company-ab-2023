@@ -1,0 +1,10 @@
+id - unique id for the agreement.
+product_code - the code of the product which agreement belongs to.
+client_id - id of the client which agreement belongs to.
+interest - yearly interest rate.
+term - months to pay off a debt.
+principal_amount - principal amount of the loan.
+origination_amount - origination amount of the loan.
+status (NEW, ACTIVE, CLOSED) - status of the loan.
+disbursement_date - date of the disbursement of the loan.
+next_payment_date - date when client should pay off the part of the loan next time.

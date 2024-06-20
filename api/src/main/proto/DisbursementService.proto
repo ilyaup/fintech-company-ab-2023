@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.academy.fintech.disbursement;
+
+option java_multiple_files = true;
+
+service DisbursementService{
+  rpc Activate(DisbursementRequest) returns (DisbursementResponse) {}
+}
+
+message DisbursementRequest{
+  string disbursementDate = 1;
+  int32 agreementId = 2;
+}
+
+message DisbursementResponse{
+  int32 paymentScheduleId = 1;
+  int32 agreementNumber = 2;
+  int32 version = 3;
+}

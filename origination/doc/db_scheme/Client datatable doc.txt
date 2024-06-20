@@ -1,0 +1,4 @@
+id - type varchar(20), primary key. Generation strategy: 'client_' + X, where X is sequence from 1 incriminating by 1.
+first_name, last_name, email - type varchar(20).
+salary - type NUMERIC(17, 2).
+All fields are not null.

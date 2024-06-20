@@ -1,0 +1,6 @@
+id - primary key. Generation strategy: 'application_' + X, where X is sequence from 1 incriminating by 1.
+client_id - varchar(20). It is foreign key for datatable 'Client'.
+requested_disbursement_amount - numeric(17, 2), cannot be less than 0.
+status - type application_status, where application status is enum ('NEW', 'SCORING', 'ACCEPTED', 'ACTIVE', 'CLOSED',
+'CANCELLED').
+All fields are not null.

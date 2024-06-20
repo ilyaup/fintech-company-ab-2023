@@ -1,0 +1,9 @@
+code - unique id for the product.
+min_term - minimal possible term for a loan.
+max_term - maximum possible term for a loan.
+min_principal_amount - minimal possible principal amount for a loan.
+max_principal_amount - maximum possible principal amount for a loan.
+min_interest - minimal possible interest for a loan.
+max_interest - maximum possible interest for a loan.
+min_origination_amount - minimal possible origination amount for a loan.
+max_origination_amount - maximum possible origination amount for a loan.

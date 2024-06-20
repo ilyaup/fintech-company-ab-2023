@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.academy.fintech.schedule_for_scoring;
+
+option java_multiple_files = true;
+
+service ScheduleForScoringService{
+  rpc Create(ScheduleForScoringCreationRequest) returns (ScheduleForScoringCreationResponse) {}
+}
+
+message ScheduleForScoringCreationRequest{
+  string disbursementAmount = 1;
+}
+
+message ScheduleForScoringCreationResponse{
+  string periodPayment = 1;
+}

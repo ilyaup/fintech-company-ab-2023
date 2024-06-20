@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.academy.fintech.overdue_info_service;
+
+option java_multiple_files = true;
+
+service OverdueInfoService{
+  rpc Get(OverdueInfoRequest) returns (OverdueInfoResponse) {}
+}
+
+message OverdueInfoRequest{
+  string clientId = 1;
+}
+
+message OverdueInfoResponse{
+  int64 overdueDays = 1;
+}
